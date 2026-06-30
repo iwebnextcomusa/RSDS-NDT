@@ -6,15 +6,15 @@
   --font-display: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   
-  /* RSDS Corporate Colors mapped to Professional Polish Slate/Orange Palette */
-  --color-primary-navy: #0f172a; /* slate-900 */
-  --color-navy-light: #1e293b;   /* slate-800 */
-  --color-navy-dark: #020617;    /* slate-950 */
-  --color-steel-gray: #475569;   /* slate-600 */
-  --color-steel-light: #94a3b8;  /* slate-400 */
-  --color-steel-bg: #f1f5f9;     /* slate-100 */
-  --color-orange-accent: #f97316; /* orange-500 */
-  --color-orange-hover: #ea580c;  /* orange-600 */
+  /* RSDS Corporate Colors mapped to Logo Deep Teal/Slate and Bright Cyan/Teal Palette */
+  --color-primary-navy: #1e353f; /* Deep teal-slate */
+  --color-navy-light: #274451;   /* Muted teal-blue */
+  --color-navy-dark: #122127;    /* Very dark slate-teal */
+  --color-steel-gray: #5c7c8a;   /* Steel-blue/gray */
+  --color-steel-light: #8cb0be;  /* Light slate-blue */
+  --color-steel-bg: #f0f5f7;     /* Off-white light-blue background */
+  --color-orange-accent: #30a7b4; /* Bright logo cyan/teal */
+  --color-orange-hover: #258d99;  /* Darker logo cyan/teal */
 }
 
 @layer base {
@@ -58,12 +58,12 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0F1E36;
+  background: #1e353f;
 }
 ::-webkit-scrollbar-thumb {
-  background: #4B5563;
+  background: #5c7c8a;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #F97316;
+  background: #30a7b4;
 }

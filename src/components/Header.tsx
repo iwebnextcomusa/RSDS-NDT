@@ -26,7 +26,6 @@ export default function Header({ currentView, setView }: HeaderProps) {
     { id: 'industries', label: 'Industries Served' },
     { id: 'certifications', label: 'Certifications' },
     { id: 'gallery', label: 'Gallery' },
-    { id: 'testimonials', label: 'Testimonials' },
     { id: 'faq', label: 'FAQ' },
     { id: 'contact', label: 'Contact' },
   ];
@@ -70,8 +69,13 @@ export default function Header({ currentView, setView }: HeaderProps) {
             onClick={() => handleNavClick('home')} 
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="w-10 h-10 bg-orange-accent rounded flex items-center justify-center font-bold text-2xl shadow-inner text-white transition-transform group-hover:scale-105 shrink-0">
-              R
+            <div className="w-10 h-10 rounded overflow-hidden shadow-md flex items-center justify-center transition-transform group-hover:scale-105 shrink-0 border border-slate-700/50 bg-slate-950">
+              <img 
+                src="/src/assets/images/rsds_favicon_1782852524771.jpg" 
+                alt="RSDS Logo" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-white font-display font-bold text-xl leading-none uppercase tracking-tight group-hover:text-orange-accent transition-colors">RSDS NDT</span>

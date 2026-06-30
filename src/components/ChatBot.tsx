@@ -66,10 +66,10 @@ export default function ChatBot() {
   };
 
   return (
-    <div id="ai-chatbot-widget" className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    <div id="ai-chatbot-widget" className="fixed bottom-6 right-6 z-[9999] flex flex-col items-end">
       {/* Chat Window */}
       {isOpen && (
-        <div id="chat-window" className="w-[330px] sm:w-[380px] h-[480px] max-h-[calc(100vh-220px)] bg-white rounded-2xl shadow-2xl border border-gray-100 flex flex-col mb-4 overflow-hidden animate-fade-in">
+        <div id="chat-window" className="w-[330px] sm:w-[380px] h-[480px] max-h-[calc(100vh-140px)] bg-white rounded-2xl shadow-2xl border border-gray-100 flex flex-col mb-4 overflow-hidden animate-fade-in">
           {/* Chat Header */}
           <div className="bg-primary-navy p-4 text-white flex items-center justify-between border-b border-white/5">
             <div className="flex items-center gap-2.5">

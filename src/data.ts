@@ -4,114 +4,100 @@ export const SERVICES: ServiceItem[] = [
   {
     id: 'vt',
     title: 'Visual Testing (VT)',
-    shortDescription: 'The foundational and most widely used NDT method, crucial for detecting surface anomalies, weld defects, and structural wear.',
-    fullDescription: 'Our certified Visual Testing (VT) inspectors utilize direct and remote inspection systems to evaluate components, welds, and structural elements. VT is the first line of defense in quality control, revealing visible surface flaws, misalignment, and mechanical damage before they escalate.',
+    shortDescription: 'The foundational NDT method, essential for surface check evaluation, weld profiles, and compliance audits.',
+    fullDescription: 'Our certified Visual Testing (VT) inspectors utilize direct and remote inspection systems to evaluate structural steel, vessels, and piping. We inspect in strict compliance with AWS D1.1, ASME, and ABS standards, identifying surface-breaking discontinuities and structural fatigue early.',
     benefits: [
-      'Cost-effective and rapid initial screening',
-      'Detects surface defects, corrosion, and welding abnormalities',
-      'Provides immediate, actionable inspection results'
+      'Rapid, highly cost-effective surface screening',
+      'Detects weld profiles, surface corrosion, and misalignment',
+      'Ensures compliance with AWS D1.1, ASME, and ABS codes'
     ],
-    industries: ['Oil & Gas', 'Manufacturing', 'Construction', 'Marine', 'Power Generation'],
+    industries: ['Petrochemical', 'Oil & Gas', 'Pipelines', 'Structural', 'Maritime'],
     iconName: 'Eye',
     image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'ut',
     title: 'Ultrasonic Testing (UT)',
-    shortDescription: 'High-frequency sound waves to scan the internal structure of welds, pipes, and plates, measuring thickness and identifying hidden flaws.',
-    fullDescription: 'Ultrasonic Testing (UT) uses localized high-frequency acoustic energy to probe deep into materials. This highly precise method detects internal cracks, laminations, voids, and wall thinning in pipelines, pressure vessels, and structural steel without affecting the asset.',
+    shortDescription: 'Precision sound-wave inspections to measure thickness, map corrosion, and verify internal weld joint integrity.',
+    fullDescription: 'Ultrasonic Testing (UT) utilizes high-frequency acoustic waves to examine the subsurface integrity of plates, structural members, and piping. Following AWS D1.1, ASME, and ABS codes, UT provides highly accurate defect sizing, crack detection, and detailed thickness mapping.',
     benefits: [
-      'Superior depth penetration for internal flaw detection',
-      'Highly accurate thickness mapping and corrosion tracking',
-      'Requires access to only one side of the test material'
+      'Superior subsurface defect detection and sizing',
+      'Accurate volumetric mapping of critical internal welds',
+      'Requires access to only one side of the component'
     ],
-    industries: ['Pipelines', 'Refineries', 'Aerospace', 'Power Generation', 'Petrochemical'],
+    industries: ['Pipelines', 'Petrochemical', 'Oil & Gas', 'Structural', 'Maritime'],
     iconName: 'Activity',
     image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'mt',
     title: 'Magnetic Particle Testing (MT)',
-    shortDescription: 'Highly sensitive inspection for discovering surface and near-surface discontinuities in ferromagnetic materials.',
-    fullDescription: 'Magnetic Particle Testing (MT) is a specialized method that induces a magnetic field in ferromagnetic components. Fine colored magnetic particles are applied, aligning dynamically with flux leakage fields to produce distinct, high-contrast indications of fine cracks, seams, and weld inclusions.',
+    shortDescription: 'Highly sensitive testing for identifying surface and near-surface flaws in ferromagnetic steel elements.',
+    fullDescription: 'Magnetic Particle Testing (MT) is a highly reliable method for locating surface-breaking anomalies in ferromagnetic steels. By inducing a localized magnetic field and applying fine particles, we easily reveal fatigue cracks, seams, and weld flaws to AWS D1.1, ASME, and ABS guidelines.',
     benefits: [
-      'Extremely sensitive to microscopic surface-breaking cracks',
-      'Applicable on complex geometries and structural steel components',
-      'Immediate visual indicators requiring minimal component cleanup'
+      'Extremely sensitive to tight, shallow surface cracks',
+      'Ideal for heavy structural welds, offshore decks, and piping',
+      'Immediate visual indication of defects on active assets'
     ],
-    industries: ['Fabrication', 'Manufacturing', 'Marine', 'Construction', 'Oil & Gas'],
+    industries: ['Structural', 'Maritime', 'Oil & Gas', 'Pipelines', 'Petrochemical'],
     iconName: 'Magnet',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'pt',
     title: 'Liquid Penetrant Testing (PT)',
-    shortDescription: 'Capillary action detection to expose surface defects in non-porous metals, alloys, and composite materials.',
-    fullDescription: 'Liquid Penetrant Testing (PT), or dye penetrant, is used on non-magnetic and magnetic alloys alike. A visible or fluorescent liquid penetrant is drawn into surface defects, followed by a developer that pulls the entrapped dye out, providing high-contrast visual indicators of fatigue cracks and porosity.',
+    shortDescription: 'Capillary-action detection to locate microscopic surface defects in non-porous welds, piping, and structures.',
+    fullDescription: 'Liquid Penetrant Testing (PT) uses capillary physics to draw highly visible or fluorescent dye into surface-breaking defects on any non-porous material. This is highly effective for examining non-magnetic weld overlays and structural steel in accordance with AWS D1.1, ASME, and ABS requirements.',
     benefits: [
-      'Inexpensive and highly portable inspection setups',
-      'Works on non-porous metals, ceramics, and advanced composites',
-      'Highly reliable for locating tight surface-breaking cracks'
+      'Excellent portability for field inspection environments',
+      'Highly effective for checking non-magnetic alloy welds',
+      'Clear, high-contrast visual display of tight surface fatigue cracks'
     ],
-    industries: ['Aerospace', 'Manufacturing', 'Marine', 'Power Generation', 'Fabrication'],
+    industries: ['Maritime', 'Petrochemical', 'Oil & Gas', 'Structural', 'Pipelines'],
     iconName: 'Droplet',
     image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'rt',
     title: 'Radiographic Testing (RT)',
-    shortDescription: 'Industrial x-ray or gamma-ray imaging to inspect internal structures, welds, and composite assemblies with archival-quality records.',
-    fullDescription: 'Radiographic Testing (RT) utilizes short-wavelength electromagnetic radiation to penetrate test objects. Variations in density and thickness are captured on film or digital detectors, revealing subsurface gas pockets, slag inclusions, cracks, and incomplete penetration with structural clarity.',
+    shortDescription: 'Volumetric weld inspections using x-ray or gamma-ray imaging to capture permanent, archival-quality internal records.',
+    fullDescription: 'Radiographic Testing (RT) provides clear visual representation of the internal structure of weldments and pipelines. We perform radiographic assessments in strict accordance with AWS D1.1, ASME Section V, and ABS criteria, ensuring maximum safety and code compliance.',
     benefits: [
-      'Provides an absolute, permanent visual record of internal welds',
-      'Applicable to virtually all material types and thicknesses',
-      'Reveals the precise geometry and layout of internal defects'
+      'Provides a permanent, indisputable visual record of internal weld quality',
+      'Identifies subsurface slag inclusions, porosity, and incomplete fusion',
+      'Crucial for high-pressure process piping and pipeline girth welds'
     ],
-    industries: ['Oil & Gas', 'Pipelines', 'Refineries', 'Aerospace', 'Construction'],
+    industries: ['Pipelines', 'Oil & Gas', 'Petrochemical', 'Structural', 'Maritime'],
     iconName: 'Layers',
-    image: 'https://images.unsplash.com/photo-1530210124550-912dc1381cb8?auto=format&fit=crop&w=800&q=80'
-  },
-  {
-    id: 'et',
-    title: 'Eddy Current Testing (ET)',
-    shortDescription: 'Electromagnetic induction testing for surface cracking, tube scanning, and conductive material characterization.',
-    fullDescription: 'Eddy Current Testing (ET) is a non-contact electromagnetic method ideal for conductive alloys. It induces electrical currents inside materials to inspect heat exchanger tubes, verify material hardness, measure coating thicknesses, and identify minute fatigue micro-cracking.',
-    benefits: [
-      'Excellent for thin-walled tube and weld inspects',
-      'Inspects through non-conductive surface coatings or paint layers',
-      'Non-contact testing allows high-speed scanning of hot surfaces'
-    ],
-    industries: ['Aerospace', 'Refineries', 'Marine', 'Power Generation', 'Manufacturing'],
-    iconName: 'Zap',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'consulting',
-    title: 'Inspection Consulting & QA',
-    shortDescription: 'Comprehensive consulting, vendor auditing, third-party oversight, and professional Quality Assurance solutions.',
-    fullDescription: 'Our certified ASNT Level III consultants provide specialized quality program designs. We conduct vendor audits, establish strict inspection procedures, offer third-party oversight, and implement customized Quality Assurance procedures matching global industrial standards.',
+    title: 'Level III Consulting & Procedures',
+    shortDescription: 'Independent ASNT Level III program auditing, customized procedure development, and Quality Assurance consulting.',
+    fullDescription: 'Our certified ASNT Level III consulting provides the highest level of oversight for your quality management system. We author and approve testing procedures, conduct third-party audits, and configure QA programs strictly optimized for AWS D1.1, ASME, and ABS regulatory compliance.',
     benefits: [
-      'Objective, independent third-party analysis and validation',
-      'Full compliance with ASME, API, AWS, and ASNT regulatory standards',
-      'Establishes and audits corporate safety protocols'
+      'Independent, expert third-party procedure authorization and verification',
+      'Total alignment with AWS D1.1, ASME, and ABS specifications',
+      'Helps facilities establish and audit rigorous safety protocols'
     ],
-    industries: ['All Industries', 'Refineries', 'Oil & Gas', 'Aerospace', 'Infrastructure'],
+    industries: ['Petrochemical', 'Oil & Gas', 'Pipelines', 'Structural', 'Maritime'],
     iconName: 'ShieldCheck',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'welding_inspect',
-    title: 'Welding Inspection & CWI',
-    shortDescription: 'AWS Certified Welding Inspectors (CWI) providing pre-weld, in-process, and post-weld joint evaluations and welder qualifications.',
-    fullDescription: 'Our Certified Welding Inspectors (CWI) are certified through the American Welding Society (AWS). We monitor joint fit-ups, pre-heating parameters, welder performance, and post-weld integrity, certifying your fabrications comply directly with structural codes.',
+    title: 'Welding Inspection Services',
+    shortDescription: 'Comprehensive pre-weld, in-process, and post-weld joint evaluations and weld procedure qualifications.',
+    fullDescription: 'We provide thorough visual and physical evaluations of welding activities to ensure absolute compliance with code requirements. From checking base-metal preparation and joint fit-up to witnessing welder qualifications and verifying finished bead profiles under AWS D1.1, ASME, and ABS.',
     benefits: [
-      'Dramatically reduces weld failure risks in structural environments',
-      'Validates and maintains official Welder Qualification Records (WPQR)',
-      'Inspects in direct accordance with AWS D1.1 and ASME Section IX codes'
+      'Reduces structural welding failures and rework expenses',
+      'Witnesses and records official welder qualification performance tests',
+      'Inspects structures directly to AWS D1.1, ASME Section IX, and ABS codes'
     ],
-    industries: ['Construction', 'Pipelines', 'Marine', 'Fabrication', 'Manufacturing'],
+    industries: ['Structural', 'Pipelines', 'Maritime', 'Oil & Gas', 'Petrochemical'],
     iconName: 'Flame',
-    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80'
   }
 ];
 
@@ -121,11 +107,11 @@ export const COURSES: CourseItem[] = [
     title: 'Visual Testing (VT) Level I & II',
     level: 'Level I & II',
     hours: 40,
-    description: 'Master the theory and practical applications of visual inspection. Covers direct and indirect methods, dimensional check gauges, weld defects, corrosion profiles, and key inspection codes.',
+    description: 'Master the theory and practical applications of visual inspection. Covers direct and indirect methods, weld defects, corrosion profiles, and key inspection codes.',
     benefits: [
-      'Hands-on gauge measuring practice with real flawed specimens',
-      'Thorough preparation for ASNT SNT-TC-1A and NAS410 criteria',
-      'Includes study materials, practical exams, and official certification preparation'
+      'Hands-on practice evaluating real weld specimens and joints',
+      'Thorough preparation for ASNT SNT-TC-1A compliance criteria',
+      'Includes comprehensive study materials, practical workshops, and exam prep'
     ],
     category: 'Visual'
   },
@@ -138,7 +124,7 @@ export const COURSES: CourseItem[] = [
     benefits: [
       'Practical training on leading high-performance flaw detectors',
       'Advanced instruction on shear-wave angle-beam weld inspection',
-      'Rigorous mathematical formula training for acoustic velocities and angles'
+      'Rigorous training for acoustic velocities and angle calculations'
     ],
     category: 'Ultrasonic'
   },
@@ -164,7 +150,7 @@ export const COURSES: CourseItem[] = [
     benefits: [
       'Step-by-step practical walk-throughs of pre-cleaning, application, and developing',
       'Instruction on identifying real stress cracks versus false indications',
-      'Compliant with industry leading aerospace and structural welding codes'
+      'Compliant with industry leading structural and maritime welding codes'
     ],
     category: 'Liquid Penetrant'
   },
@@ -198,46 +184,39 @@ export const COURSES: CourseItem[] = [
 
 export const INDUSTRIES: IndustryItem[] = [
   {
-    id: 'oil-gas',
-    title: 'Oil & Gas',
-    description: 'Non-Destructive Testing is critical for maintaining infrastructure in harsh offshore rigs, extraction wells, and pressure processing facilities.',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80',
-    iconName: 'Droplets'
+    id: 'petrochemical',
+    title: 'Petrochemical',
+    description: 'Routine and preventative wall thickness scanning, vessel integrity mapping, and process piping audits to ensure safety and prevent structural failures.',
+    image: 'https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?auto=format&fit=crop&w=600&q=80',
+    iconName: 'Flame'
   },
   {
-    id: 'petrochemical',
-    title: 'Petrochemical & Refineries',
-    description: 'We perform thickness mapping, UT shear-wave scans, and Eddy Current tube testing to prevent catastrophic failures in corrosive refinery pipelines.',
+    id: 'oil-gas',
+    title: 'Oil & Gas',
+    description: 'Rigorous non-destructive testing for onshore and offshore exploration, storage vessels, and drilling setups under challenging environments.',
     image: 'https://images.unsplash.com/photo-1542060748-10c28b629f6f?auto=format&fit=crop&w=600&q=80',
-    iconName: 'FlameKindling'
+    iconName: 'Droplets'
   },
   {
     id: 'pipelines',
     title: 'Pipelines',
-    description: 'Cross-country pipelines require continuous visual, radiography, and ultrasonic inspections to verify girth welds and monitor wall integrity.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80',
-    iconName: 'TrendingUp'
+    description: 'Continuous volumetric testing, weld integrity scans, and pipeline girth weld certifications to prevent leakage and guarantee compliance.',
+    image: 'https://images.unsplash.com/photo-1581092162779-847c4be77501?auto=format&fit=crop&w=600&q=80',
+    iconName: 'Activity'
   },
   {
-    id: 'manufacturing',
-    title: 'Manufacturing & Fabrication',
-    description: 'Ensuring structural components, forged fittings, and castings meet rigid dimensional and internal quality specifications before shipment.',
+    id: 'structural',
+    title: 'Structural Steel',
+    description: 'Critical structural weld testing, framework inspection, and welder performance checks strictly guided by AWS D1.1 and ASME standards.',
     image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=600&q=80',
-    iconName: 'Cpu'
+    iconName: 'Layers'
   },
   {
-    id: 'aerospace',
-    title: 'Aerospace',
-    description: 'Extremely high-precision liquid penetrant, magnetic particle, and eddy current scanning of critical turbines, engine parts, and landing gear.',
-    image: 'https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?auto=format&fit=crop&w=600&q=80',
-    iconName: 'Plane'
-  },
-  {
-    id: 'power-gen',
-    title: 'Power Generation',
-    description: 'Inspection of boiler tubes, turbines, pressure conduits, and support framing in thermal, nuclear, and hydroelectric power installations.',
-    image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=600&q=80',
-    iconName: 'Zap'
+    id: 'maritime',
+    title: 'Maritime',
+    description: 'Specialized NDT services for hulls, decks, marine boilers, and pressure equipment matching ABS (American Bureau of Shipping) standards.',
+    image: 'https://images.unsplash.com/photo-1505705694340-019e1e335916?auto=format&fit=crop&w=600&q=80',
+    iconName: 'Shield'
   }
 ];
 
@@ -277,7 +256,7 @@ export const FAQS: FAQItem[] = [
   {
     id: 'faq2',
     question: 'Which industries do you serve?',
-    answer: 'We provide NDT training, inspection, and consulting services to a broad array of industries, including Oil & Gas, Petrochemical, Refineries, cross-country Pipelines, Aerospace manufacturing, Marine shipyards, heavy structural Fabrication, Construction, and Power Generation facilities throughout Mississippi and surrounding regions.'
+    answer: 'We provide professional NDT inspections and ASNT certifications for several core sectors: Petrochemical plants, Oil & Gas operations, cross-country Pipelines, heavy Structural steel projects, and Maritime structures following AWS D1.1, ASME, and ABS guidelines.'
   },
   {
     id: 'faq3',
@@ -291,8 +270,8 @@ export const FAQS: FAQItem[] = [
   },
   {
     id: 'faq5',
-    question: 'What certifications do your inspectors and instructors hold?',
-    answer: 'Our professional team holds prestigious industry credentials, including ASNT Level III, AWS Certified Welding Inspectors (CWI), and API (American Petroleum Institute) inspect credentials. All NDT courses comply fully with ASNT SNT-TC-1A, NAS410, and ANSI standards.'
+    question: 'What credentials do your inspectors and instructors hold?',
+    answer: 'All our training courses comply with ASNT SNT-TC-1A and ANSI guidelines. Our instructional quality and program development are overseen by certified ASNT Level III experts with extensive field testing backgrounds in AWS D1.1, ASME, and ABS codes.'
   }
 ];
 
@@ -320,10 +299,10 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'g4',
-    category: 'equipment',
-    title: 'Electromagnetic AC Yoke',
-    url: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80',
-    description: 'Advanced testing gauges used to calibrate ultrasonic equipment before thickness scans.'
+    category: 'inspection',
+    title: 'Structural MT Inspection',
+    url: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80',
+    description: 'Inspector performing magnetic particle checking on a critical steel weld joint.'
   },
   {
     id: 'g5',
@@ -336,7 +315,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g6',
     category: 'field',
     title: 'Industrial Construction Check',
-    url: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80',
+    url: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80',
     description: 'Comprehensive third-party QA oversight on newly constructed structural framework.'
   }
 ];
